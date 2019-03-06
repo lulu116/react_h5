@@ -1,0 +1,30 @@
+@import './var';
+@import "./header";
+@import "./footer";
+/*
+  样式主文件
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  min-width: 1200px!important;
+  background-color: $bgColor!important;
+}
+ol, ul, dl {
+  list-style: none;
+}
+.app-pc {
+  color: #f00;
+  .p-style {
+    color: #369;
+  }
+}

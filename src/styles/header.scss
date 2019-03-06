@@ -1,0 +1,31 @@
+.header {
+  line-height: 62px;
+  height: 62px;
+  background-color: $header_bg;
+  .ant-menu {
+    background: $header_bg;
+    line-height: 63px;
+    height: 63px;
+    transition: all 0.3s ease-in;
+  }
+  .ant-menu-horizontal {
+    line-height: 60px;
+    .ant-menu-item-selected,
+    .ant-menu-submenu-selected,
+    .ant-menu-submenu-selected,
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-active,
+    .ant-menu-item-open,
+    .ant-menu-submenu-open {
+      background-color: $selectMenuBg;
+      color: #fff;
+      border-bottom: 2px solid $selectMenuBg;
+    };
+    .ant-menu-item:hover,
+    .ant-menu-submenu:hover {
+      background-color: $hoverMenuBg;
+      color: #329DDC;
+      border-bottom: 2px solid $hoverMenuBg;
+    }
+  }
+}
