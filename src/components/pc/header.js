@@ -10,26 +10,28 @@ const MenuItemGroup = Menu.ItemGroup;
 export default class Header extends Component{
     render() {
         return (
-            <Row className='header'>
-                <Col span={5}>
-                    dddd
-                </Col>
-                <Col span={19}>
-                    <Menu
-                        mode="horizontal"
-                    >
-                        <Menu.Item key="mail">
-                            <Icon type="mail" />Navigation One
-                        </Menu.Item>
-                        <Menu.Item key="mail1">
-                            <Icon type="mail" />Navigation One
-                        </Menu.Item>
-                        <Menu.Item key="mail2">
-                            <Icon type="mail" />Navigation One
-                        </Menu.Item>
-                    </Menu>
-                </Col>
-            </Row>
+           <div className='header'>
+               <Row className='header-inner'>
+                   <Col span={5} className='logo' >
+                       <span>探索前端之路的小白--lalala</span>
+                   </Col>
+                   <Col span={18} offset={1}>
+                       <Menu
+                           mode="horizontal"
+                       >
+                           <Menu.Item key="mail">
+                               <Icon type="mail" />Navigation One
+                           </Menu.Item>
+                           <Menu.Item key="mail1">
+                               <Icon type="mail" />Navigation One
+                           </Menu.Item>
+                           <Menu.Item key="mail2">
+                               <Icon type="mail" />Navigation One
+                           </Menu.Item>
+                       </Menu>
+                   </Col>
+               </Row>
+           </div>
         );
     }
 }

@@ -1,42 +1,8 @@
-.header {
-  line-height: 62px;
-  height: 62px;
-  background-color: $header_bg;
-  .ant-menu {
-    background: $header_bg;
-    line-height: 55px;
-    height: 55px;
-    transition: all 0.3s ease-in;
-  }
-  .ant-menu-horizontal {
-    line-height: 55px;
-    color: #fff;
-    margin-top: 10px;
-    border-bottom: 0;
-    .ant-menu-item-selected,
-    .ant-menu-submenu-selected,
-    .ant-menu-submenu-selected,
-    .ant-menu-submenu-active,
-    .ant-menu-submenu-active,
-    .ant-menu-item-open,
-    .ant-menu-submenu-open {
-      background-color: $selectMenuBg;
-      color: #fff;
-      border-bottom: 0;
-    };
-    .ant-menu-item:hover,
-    .ant-menu-submenu:hover {
-      background-color: #373D41;
-      color: $selectMenuBg;
-      border-bottom: 0;
-    }
-  }
-}
-.header::before {
-  background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
-  content: "";
-  height: 5px;
-  position: absolute;
-  top: 0;
-  width: 100%;
+.content {
+  width: 1200px;
+  min-width: 1200px;
+  height: calc(100vh - 200px);
+  background-color: #fff;
+  margin: 15px auto;
+  overflow: hidden;
 }

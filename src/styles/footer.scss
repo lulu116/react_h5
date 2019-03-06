@@ -1,7 +1,32 @@
 .footer {
-  line-height: 45px;
-  height: 45px;
-  background-color: $header_bg;
-  text-align: center;
-  color: #fff;
+  background: #373D41;
+  width: 100%;
+  border-top: #00C1DE 8px solid;
+  padding: 30px 0;
+  color: $footer_color;
+  font-size: 14px;
+  .sitebox {
+    margin: 0 auto;
+    width: 1200px;
+    .right h3 {
+      color: $selectMenuBg;
+    }
+    .right p {
+      margin-bottom: 0;
+      span:hover {
+        color: $selectMenuBg;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+  #top a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(../assets/favicon.ico) no-repeat center #000;
+    right: 20px;
+    bottom: 10%;
+    position: fixed;
+  }
 }

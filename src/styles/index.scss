@@ -1,6 +1,7 @@
 @import './var';
 @import "./header";
 @import "./footer";
+@import "./content";
 /*
   样式主文件
 */
@@ -19,8 +20,10 @@ html, body {
   min-width: 1200px!important;
   background-color: $bgColor!important;
 }
-ol, ul, dl {
+ol, ul, dl, li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .app-pc {
   color: #f00;
